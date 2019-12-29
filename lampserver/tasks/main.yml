@@ -1,0 +1,7 @@
+---
+- include_tasks: httpd.yml
+- include_tasks: php.yml
+- include_tasks: mysql.yml
+
+
+# tasks file for lampserver
